@@ -34,7 +34,7 @@ Welcome to test your detection methods on our testbed!
 # 📅 Activities
 
 - 🎉 **May 25, 2023**: Initial dataset realease including texts from 10 domains and 27 LLMs, contributing to 6 testbeds with increasing detection difficulty.
-- 🎯 **Upcoming Events**: Two additional 'wilder' testbeds coming soon.
+- 🎯 **Upcoming Events**: Two 'wilder' testbeds coming soon.
 
 # 📝 Dataset Description
 
