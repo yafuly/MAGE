@@ -17,7 +17,7 @@
 - [Activities](#-activities)
 - [Dataset Description](#-dataset-description)
 - [How to Get the Data](#-how-to-get-the-data)
-- [Try Detection](#try-detection)
+- [Try Detection](#computer--try-detection)
 - [License](#-license)
 - [Citation](#-citation)
 - [Contact](#-contact)
