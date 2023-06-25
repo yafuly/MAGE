@@ -72,7 +72,7 @@ Here's a brief overview of the types of data included:
 # :computer:  Try Detection
 ## Model Access
 Our Longformer detector, trained on the entire dataset, is now available on [Huggingface](https://huggingface.co/nealcly/detection-longformer). We have refined the threshold based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector.
-```
+```python
 import torch
 import os
 import transformers
