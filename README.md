@@ -71,8 +71,32 @@ Here's a brief overview of the types of data included:
 
 # :computer:  Try Detection
 ## Model Access
-We release our Longformer detector trained on the entire dataset on [Huggingface](https://huggingface.co/nealcly/detection-longformer), with threshold refined based on out-of-distribution settings.
+Our Longformer detector, trained on the entire dataset, is now available on [Huggingface](https://huggingface.co/nealcly/detection-longformer). We have refined the threshold based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector.
+'''
+import torch
+import os
+import transformers
+from transformers import (
+    AutoModelForSequenceClassification,
+    AutoTokenizer,
+)
+from deployment import preprocess, detect
 
+# init
+device = 'cuda:0'
+model_dir = "nealcly/detection-longformer"
+cache_dir = "/apdcephfs/share_916081/effidit_shared_data/yafuli/Codes/LLM-results/classfication/github/cache_detection_longformer"
+os.makedirs(cache_dir, exist_ok=True)
+
+# load the Longformer detector
+tokenizer = AutoTokenizer.from_pretrained(model_dir, cache_dir=cache_dir)
+model = AutoModelForSequenceClassification.from_pretrained(model_dir, cache_dir=cache_dir).to(device)
+# preprocess
+text = preprocess(text)
+# detection
+result = detect(text,tokenizer,model,device)
+
+'''
 ## Detection Performance
 ### In-distribution Detection
 | Testbed | HumanRec | MachineRec | AvgRec | AUROC|
