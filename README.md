@@ -91,6 +91,7 @@ os.makedirs(cache_dir, exist_ok=True)
 # load the Longformer detector
 tokenizer = AutoTokenizer.from_pretrained(model_dir, cache_dir=cache_dir)
 model = AutoModelForSequenceClassification.from_pretrained(model_dir, cache_dir=cache_dir).to(device)
+
 # preprocess
 text = preprocess(text)
 # detection
