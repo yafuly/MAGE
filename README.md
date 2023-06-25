@@ -72,7 +72,7 @@ Here's a brief overview of the types of data included:
 # :computer:  Try Detection
 ## Model Access
 Our Longformer detector, trained on the entire dataset, is now available on [Huggingface](https://huggingface.co/nealcly/detection-longformer). We have refined the threshold based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector.
-'''
+```
 import torch
 import os
 import transformers
@@ -95,8 +95,8 @@ model = AutoModelForSequenceClassification.from_pretrained(model_dir, cache_dir=
 text = preprocess(text)
 # detection
 result = detect(text,tokenizer,model,device)
+```
 
-'''
 ## Detection Performance
 ### In-distribution Detection
 | Testbed | HumanRec | MachineRec | AvgRec | AUROC|
