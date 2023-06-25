@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>🌟 Deepfake Text Detection in the Wild 🌟</h1>
+  <h1>Deepfake Text Detection in the Wild</h1>
 <!-- ![img](./figures/intro.png) -->
 <p align="center">
-  <img src="./figures/intro.png" width="70%" height="70%" />
+  <img src="./figures/intro.png" width="90%" height="90%" />
 </p>
   
   ![Data Version](https://img.shields.io/badge/Data%20Version-1.0.0-blue.svg?style=for-the-badge&logo=appveyor)
