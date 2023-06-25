@@ -125,15 +125,18 @@ We release our Longformer detector trained on the entire dataset on [Huggingface
 | Testbed | HumanRec | MachineRec | AvgRec | AUROC|
 |------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
 | In-distribution Detection |  |  |  |   |
-| Fixed-domain & Model-specific | 97.30%  | 95.91% | 96.60% | 0.99 | 
-| Arbitrary-domains & Model–specific | 95.25% | 96.94% | 96.10% | 0.99 |
-| Fixed-domain & Arbitrary-models | 89.78% | 97.24% | 93.51% | 0.99 |
-| Arbitrary-domains & Arbitrary-models | 82.80%  | 98.27% | 90.53% | 0.99 |
+| Domain-specific & Model-specific | 97.30%  | 95.91% | 96.60% | 0.99 | 
+| Cross-domains & Model–specific | 95.25% | 96.94% | 96.10% | 0.99 |
+| Domain-specific & Cross-models | 89.78% | 97.24% | 93.51% | 0.99 |
+| Cross-domains & Cross-models | 82.80%  | 98.27% | 90.53% | 0.99 |
 | Out-of-distribution Detection |  |  |  |   |
 | Unseen Model Sets |  86.09% | 89.15% | 87.62% | 0.95 |
 | Unseen Domains |  82.88% | 80.50% | 81.78% | 0.93 |
 | Unseen Domains & Unseen Model|88.78% |84.12% |86.54%|0.94|
 | Paraphrase| 88.78% |37.05% |62.92% |0.75|
+
+
+
 <!-- Please see the `CONTRIBUTING.md` file for how to contribute. -->
 # 📜 License
 
