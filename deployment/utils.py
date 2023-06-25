@@ -220,7 +220,7 @@ def _tokenization_norm(text):
     return text
 
 
-def clean_text(text):
+def _clean_text(text):
     # remove PLM special tokens
     plm_special_tokens = r'(\<pad\>)|(\<s\>)|(\<\/s\>)|(\<unk\>)|(\<\|endoftext\|\>)'
     text = re.sub(plm_special_tokens, "", text)
@@ -274,7 +274,7 @@ def _rm_line_break(text):
 
 def preprocess(text):
     text = _rm_line_break(text)
-    text = clean_text(text)
+    text = _clean_text(text)
     return text
 
 
