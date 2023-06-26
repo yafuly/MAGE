@@ -78,11 +78,7 @@ We have refined the threshold based on out-of-distribution settings. To ensure o
 ```python
 import torch
 import os
-import transformers
-from transformers import (
-    AutoModelForSequenceClassification,
-    AutoTokenizer,
-)
+from transformers import AutoModelForSequenceClassification,AutoTokenizer
 from deployment import preprocess, detect
 
 # init
