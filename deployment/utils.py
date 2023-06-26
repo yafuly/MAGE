@@ -1,7 +1,6 @@
 import re
 import torch
 from cleantext import clean
-from nltk import sent_tokenize
 from itertools import chain
 
 class MosesPunctNormalizer:
