@@ -84,8 +84,6 @@ from deployment import preprocess, detect
 # init
 device = 'cpu' # use 'cuda:0' if GPU is available
 model_dir = "nealcly/detection-longformer"
-
-# load the Longformer detector
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSequenceClassification.from_pretrained(model_dir).to(device)
 
