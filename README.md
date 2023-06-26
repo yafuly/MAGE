@@ -86,14 +86,13 @@ from transformers import (
 from deployment import preprocess, detect
 
 # init
-device = 'cuda:0'
+device = 'cpu' # use 'cuda:0' if GPU is available
 model_dir = "nealcly/detection-longformer"
-cache_dir = "/apdcephfs/share_916081/effidit_shared_data/yafuli/Codes/LLM-results/classfication/github/cache_detection_longformer"
-os.makedirs(cache_dir, exist_ok=True)
+
 
 # load the Longformer detector
-tokenizer = AutoTokenizer.from_pretrained(model_dir, cache_dir=cache_dir)
-model = AutoModelForSequenceClassification.from_pretrained(model_dir, cache_dir=cache_dir).to(device)
+tokenizer = AutoTokenizer.from_pretrained(model_dir)
+model = AutoModelForSequenceClassification.from_pretrained(model_dir).to(device)
 
 # preprocess
 text = preprocess(text)
