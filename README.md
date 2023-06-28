@@ -83,7 +83,7 @@ dataset = load_dataset("yaful/DeepfakeTextDetect")
 ```
 which includes traditional splits (train.csv, valid.csv and test.csv) and two wilder test sets (test_ood_set_gpt.csv and test_ood_set_gpt_para.csv).
 
-#### Cloud Drive
+#### 2. Cloud Drive
 Alternatively, you can access the 6 testbeds by downloading them directly through [Google Drive](https://drive.google.com/drive/folders/1p09vDiEvoA-ZPmpqkB2WApcwMQWiiMRl?usp=sharing)
 or [Tencent Weiyun](https://share.weiyun.com/JUWQxF4H)：
 
