@@ -40,7 +40,7 @@ Presenting a comprehensive benchmark dataset designed to assess the proficiency 
 ## 📌 Table of Contents
 - [Introduction](#-introduction)
 - [Activities](#-activities)
-- [Dataset Description](#-dataset-description)
+- [Dataset](#-dataset)
 - [Try Detection](#computer--try-detection)
 - [Citation](#-citation)
 <!-- - [Contributing](#-contributing) -->
@@ -65,7 +65,7 @@ Previous work demonstrates that detection methods are vulnerable to being deceiv
 Therefore, we also paraphrase each sentence individually for both human-written and machine-generated texts, forming an even more challenging testbed. 
 We adopt gpt-3.5-trubo as the zero-shot paraphraser and consider all paraphrased texts as machine-generated.
 
-## 📝 Dataset Description
+## 📝 Dataset 
 
 The dataset consists of **447,674** human-written and machine-generated texts from a wide range of sources in the wild:
 - Human-written texts from **10 datasets** covering a wide range of writing tasks, e.g., news article writing, story generation, scientific writing, etc.
