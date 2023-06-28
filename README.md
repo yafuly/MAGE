@@ -140,7 +140,7 @@ result = detect(text,tokenizer,model,device)
 
 
 
-### Data Samples
+## 📄 Data Samples
 All instances are stored as rows in a csv format, with each row consiting of 3 columns: _Text_, _Label_ (0 for machine-generated and 1 for human-written) and _Index_ (indexes in the original data source, used restore alignment after filtering).
 
 #### News Article
