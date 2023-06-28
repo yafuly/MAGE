@@ -97,7 +97,7 @@ Here's a brief overview of the types of data included:
 Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect).
 
 ### Deployment
-We have refined the threshold based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector. 
+We have refined the decision boundary based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector. 
 ```python
 import torch
 import os
