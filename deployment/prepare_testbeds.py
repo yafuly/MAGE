@@ -5,43 +5,6 @@ from collections import defaultdict
 import random
 
 set_names = ['cmv', 'yelp', 'xsum', 'tldr', 'eli5', 'wp', 'roct', 'hswag', 'squad', 'sci_gen']
-model_names = [
-    # GLM
-    'GLM130B',
-    # bloom
-    'bloom_7b',
-    # flan_t5,
-    'flan_t5_small',
-    'flan_t5_base',
-    'flan_t5_large',
-    'flan_t5_xl',
-    'flan_t5_xxl',
-    # t0
-    't0_3b',
-    't0_11b',
-    # opt,
-    'opt_125m',
-    'opt_350m',
-    'opt_1.3b',
-    'opt_2.7b',
-    'opt_6.7b',
-    'opt_13b',
-    'opt_30b',
-    'opt_iml_30b',
-    'opt_iml_max_1.3b',
-    # gpt
-    'gpt_j',
-    'gpt_neox',
-    # openai
-    'gpt-3.5-trubo', 
-    'text-davinci-003', 
-    'text-davinci-002',
-    # llama
-    '_7B',
-    '_13B',
-    '_30B',
-    '_65B'
-    ]
 
 oai_list = [
     # openai
