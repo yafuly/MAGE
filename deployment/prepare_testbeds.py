@@ -70,7 +70,6 @@ model_sets = [
 
 data_dir = sys.argv[1]
 dataset = load_dataset("yaful/DeepfakeTextDetect")
-data_dir = sys.argv[1]
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
 """
@@ -95,6 +94,12 @@ merge_dict = {
     "valid": (valid_results, 100),
     "test": (test_results, 100),
 }
+
+
+test_ood_gpt = dataset["test_ood_gpt"]
+test_ood_gpt_para = dataset["test_ood_gpt_para"]
+test_ood_gpt.to_csv(os.path.join(data_dir, "test_ood_gpt.csv"))
+test_ood_gpt_para.to_csv(os.path.join(data_dir, "test_ood_gpt_para.csv"))
 
 
 # make domain-specific_model-specific (gpt_j)
