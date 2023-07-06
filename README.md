@@ -5,24 +5,18 @@
 </div>
 
 <div align="center">
-<h1>Explicit Syntactic Guidance for Neural Text Generation</h1>
+<h1>Deepfake Text Detection in the Wild</h1>
 </div>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
-<img src="https://img.shields.io/badge/License-CC%20BY%204.0-green.svg" alt="License">
-<img src="https://img.shields.io/github/stars/yafuly/DeepfakeTextDetect?color=yellow" alt="Stars">
-<img src="https://img.shields.io/github/issues/yafuly/DeepfakeTextDetect?color=red" alt="Issues">
-
-
-
-
+Expand All
+	@@ -20,21 +20,20 @@
 <!-- **Authors:** -->
 <br>
 
-_**Yafu Li<sup>†</sup><sup>‡</sup>, Leyang Cui<sup>¶</sup>, Jianhao Yan<sup>†</sup><sup>‡</sup>, Yongjing Yin<sup>†</sup><sup>‡</sup>,<br>**_
+_**Yafu Li<sup>†</sup><sup>‡</sup>, Qintong Li<sup>§</sup>, Leyang Cui<sup>¶</sup>, Wei Bi<sup>¶</sup>,<br>**_
 
-_**Wei Bi<sup>¶</sup>, Shuming Shi<sup>¶</sup>, Yue Zhang<sup>‡</sup><br>**_
+_**Longyue Wang<sup>¶</sup>, Linyi Yang<sup>‡</sup>, Shuming Shi<sup>¶</sup>, Yue Zhang<sup>‡</sup><br>**_
 
 
 <!-- **Affiliations:** -->
@@ -30,10 +24,11 @@ _**Wei Bi<sup>¶</sup>, Shuming Shi<sup>¶</sup>, Yue Zhang<sup>‡</sup><br>**_
 
 _<sup>†</sup> Zhejiang University,
 <sup>‡</sup> Westlake University,
+<sup>§</sup> The University of Hong Kong,
 <sup>¶</sup> Tencent AI Lab_
 
 
-A syntax-guided generation schema that generates the sequence guided by a constituency parse tree in a top-down direction.
+Presenting a comprehensive benchmark dataset designed to assess the proficiency of deepfake detectors amidst real-world scenarios.
 </div>
 
 ## 📌 Table of Contents
