@@ -90,7 +90,7 @@ To obtain the 6 testbeds mentioned in our paper, simply apply the provided scrip
 ```shell
 python3 deployment/prepare_testbeds.py DATA_PATH
 ```
-where ''DATA_PATH'' is the Huggingface data directory.
+Replace ''DATA_PATH'' with the output data directory where you want to save the 6 testbeds.
 
 #### 2. Cloud Drive
 Alternatively, you can access the 6 testbeds by downloading them directly through [Google Drive](https://drive.google.com/drive/folders/1p09vDiEvoA-ZPmpqkB2WApcwMQWiiMRl?usp=sharing)
