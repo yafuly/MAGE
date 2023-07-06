@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1>Deepfake Text Detection in the Wild</h1>
+<h1>Explicit Syntactic Guidance for Neural Text Generation</h1>
 </div>
 
 <div align="center">
@@ -20,9 +20,9 @@
 <!-- **Authors:** -->
 <br>
 
-_**Yafu Li<sup>†</sup><sup>‡</sup>, Qintong Li<sup>§</sup>, Leyang Cui<sup>¶</sup>, Wei Bi<sup>¶</sup>,<br>**_
+_**Yafu Li<sup>†</sup><sup>‡</sup>, Leyang Cui<sup>¶</sup>, Jianhao Yan<sup>†</sup><sup>‡</sup>, Yongjing Yin<sup>†</sup><sup>‡</sup>,<br>**_
 
-_**Longyue Wang<sup>¶</sup>, Linyi Yang<sup>‡</sup>, Shuming Shi<sup>¶</sup>, Yue Zhang<sup>‡</sup><br>**_
+_**Wei Bi<sup>¶</sup>, Shuming Shi<sup>¶</sup>, Yue Zhang<sup>‡</sup><br>**_
 
 
 <!-- **Affiliations:** -->
@@ -30,11 +30,10 @@ _**Longyue Wang<sup>¶</sup>, Linyi Yang<sup>‡</sup>, Shuming Shi<sup>¶</sup>
 
 _<sup>†</sup> Zhejiang University,
 <sup>‡</sup> Westlake University,
-<sup>§</sup> The University of Hong Kong,
 <sup>¶</sup> Tencent AI Lab_
 
 
-Presenting a comprehensive benchmark dataset designed to assess the proficiency of deepfake detectors amidst real-world scenarios.
+A syntax-guided generation schema that generates the sequence guided by a constituency parse tree in a top-down direction.
 </div>
 
 ## 📌 Table of Contents
