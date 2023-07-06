@@ -9,8 +9,14 @@
 </div>
 
 <div align="center">
-Expand All
-	@@ -20,21 +20,20 @@
+<img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
+<img src="https://img.shields.io/badge/License-CC%20BY%204.0-green.svg" alt="License">
+<img src="https://img.shields.io/github/stars/yafuly/DeepfakeTextDetect?color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/issues/yafuly/DeepfakeTextDetect?color=red" alt="Issues">
+
+
+
+
 <!-- **Authors:** -->
 <br>
 
