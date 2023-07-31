@@ -35,7 +35,7 @@ _<sup>†</sup> Zhejiang University,
 
 
 Presenting a comprehensive benchmark dataset designed to assess the proficiency of deepfake detectors amidst real-world scenarios.
-Try detection via our **[online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect)**!
+Welcome to try detection via our **[online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect)**!
 </div>
 
 
