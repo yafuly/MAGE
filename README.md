@@ -35,11 +35,9 @@ _<sup>†</sup> Zhejiang University,
 
 
 Presenting a comprehensive benchmark dataset designed to assess the proficiency of deepfake detectors amidst real-world scenarios.
+Try detection via our **[Model](https://huggingface.co/nealcly/detection-longformer)** or **[Model](https://huggingface.co/nealcly/detection-longformer)**!
 </div>
 
-### Try It
-- **[Model](https://huggingface.co/nealcly/detection-longformer)**
-- **[Online Demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect)**
 
 
 ## 📌 Table of Contents
