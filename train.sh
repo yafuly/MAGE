@@ -1,5 +1,5 @@
 # MODEL=bert-base-cased
-plm_dir="nealcly/detection-longformer"
+plm_dir="allenai/longformer-base-4096"
 seed=42629309
 data_path="./data/cross_domains_cross_models"
 train_file="$data_path/train.csv"
