@@ -118,7 +118,7 @@ pip install clean-text # for data preprocessing
 ```
 Or you can run:
 ```shell
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Model Access
