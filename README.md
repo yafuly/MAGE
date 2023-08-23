@@ -110,7 +110,7 @@ The folder contains 4 packages:
 ## :computer:  Try Detection
 
 ### Python Environment
-For deploy the Longformer detector or training your own detector using our data, simply install the following packages:
+For deploying the Longformer detector or training your own detector using our data, simply install the following packages:
 ```shell
 pip install transformers
 pip install datasets
