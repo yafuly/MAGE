@@ -117,9 +117,9 @@ pip install datasets
 pip install clean-text # for data preprocessing
 ```
 Or you can run:
-```
+```shell
 pip install -r requirement.txt
-'''
+```
 
 ### Model Access
 Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect).
