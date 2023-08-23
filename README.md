@@ -109,6 +109,18 @@ The folder contains 4 packages:
 
 ## :computer:  Try Detection
 
+### Python Environment
+For deploy the Longformer detector or training your own detector using our data, simply install the following packages:
+```shell
+pip install transformers
+pip install datasets
+pip install clean-text # for data preprocessing
+```
+Or you can run:
+```
+pip install -r requirement.txt
+'''
+
 ### Model Access
 Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect).
 
