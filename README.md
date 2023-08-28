@@ -35,7 +35,7 @@ _<sup>†</sup> Zhejiang University,
 
 
 Presenting a comprehensive benchmark dataset designed to assess the proficiency of deepfake detectors amidst real-world scenarios.
-Welcome to try detection via our **[online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect)**!
+Welcome to try detection via our **[online demo](https://detect.westlake.edu.cn)**!
 </div>
 
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 ```
 
 ### Model Access
-Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://huggingface.co/spaces/yaful/DeepfakeTextDetect).
+Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://detect.westlake.edu.cn/).
 
 ### 
 We have refined the decision boundary based on out-of-distribution settings. To ensure optimal performance, we recommend preprocessing texts before sending them to the detector. 
