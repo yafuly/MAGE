@@ -3,7 +3,7 @@ plm_dir="allenai/longformer-base-4096"
 seed=42629309
 data_path="./data/cross_domains_cross_models"
 train_file="$data_path/train.csv"
-valid_file="$data_path/test.csv"
+valid_file="$data_path/valid.csv"
 out_dir="./output_samples_${seed}_lfbase"
 time=$(date +'%m:%d:%H:%M')
 mkdir -p $out_dir
