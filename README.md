@@ -134,8 +134,8 @@ from deployment import preprocess, detect
 
 # init
 device = 'cpu' # use 'cuda:0' if GPU is available
-model_dir = "nealcly/detection-longformer" # model in our paper
-# model_dir = "yaful/DeepfakeTextDetection" # model in the online demo
+# model_dir = "nealcly/detection-longformer" # model in our paper
+model_dir = "yaful/DeepfakeTextDetection" # model in the online demo
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSequenceClassification.from_pretrained(model_dir).to(device)
 
