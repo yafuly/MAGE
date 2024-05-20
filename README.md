@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1><img src="./figures/title.png" width="4%" height="10%" style="display:inline">MAGE: Machine-generated Text Detection in the Wild</h1>
+<h1><img src="./figures/title.png" width="30px" height="30px" style="display:inline;margin-right:10px;">MAGE: Machine-generated Text Detection in the Wild</h1>
 </div>
 
 <div align="center">
