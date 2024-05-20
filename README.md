@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1>Deepfake Text Detection in the Wild</h1>
+<h1>MAGE: Machine-generated Text Detection in the Wild</h1>
 </div>
 
 <div align="center">
