@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ### Model Access
 
-Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/nealcly/detection-longformer). Additionally, you can try detection directly using our [online demo](https://detect.westlake.edu.cn/).
+Our Longformer detector, which has been trained on the entire dataset, is now accessible through [Huggingface](https://huggingface.co/yaful/MAGE). Additionally, you can try detection directly using our [online demo](https://detect.westlake.edu.cn/).
 
 ###
 
@@ -145,7 +145,7 @@ from deployment import preprocess, detect
 # init
 device = 'cpu' # use 'cuda:0' if GPU is available
 # model_dir = "nealcly/detection-longformer" # model in our paper
-model_dir = "yaful/DeepfakeTextDetection" # model in the online demo
+model_dir = "yaful/MAGE" # model in the online demo
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSequenceClassification.from_pretrained(model_dir).to(device)
 
