@@ -78,7 +78,7 @@ The dataset consists of **447,674** human-written and machine-generated texts fr
 
 #### 1. Huggingface
 
-You can access the full dataset, which includes the Cross-domains & Cross-models testbed and two additional wilder test sets, through the Huggingface API:
+You can access the full dataset, which includes the Cross-domains & Cross-models testbed and two additional wilder test sets, through the [Huggingface API](https://huggingface.co/datasets/yaful/MAGE):
 
 ```python
 from datasets import load_dataset
