@@ -230,10 +230,10 @@ All instances are stored as rows in a csv format, with each row consiting of 3 c
 If you use this dataset in your research, please cite it as follows:
 
 ```bibtex
-@misc{li2023deepfake,
-      title={Deepfake Text Detection in the Wild},
-      author={Yafu Li and Qintong Li and Leyang Cui and Wei Bi and Longyue Wang and Linyi Yang and Shuming Shi and Yue Zhang},
-      year={2023},
+@misc{li2024mage,
+      title={MAGE: Machine-generated Text Detection in the Wild}, 
+      author={Yafu Li and Qintong Li and Leyang Cui and Wei Bi and Zhilin Wang and Longyue Wang and Linyi Yang and Shuming Shi and Yue Zhang},
+      year={2024},
       eprint={2305.13242},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
