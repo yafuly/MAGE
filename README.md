@@ -230,13 +230,28 @@ All instances are stored as rows in a csv format, with each row consiting of 3 c
 If you use this dataset in your research, please cite it as follows:
 
 ```bibtex
-@misc{li2024mage,
-      title={MAGE: Machine-generated Text Detection in the Wild}, 
-      author={Yafu Li and Qintong Li and Leyang Cui and Wei Bi and Zhilin Wang and Longyue Wang and Linyi Yang and Shuming Shi and Yue Zhang},
-      year={2024},
-      eprint={2305.13242},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{li-etal-2024-mage,
+    title = "{MAGE}: Machine-generated Text Detection in the Wild",
+    author = "Li, Yafu  and
+      Li, Qintong  and
+      Cui, Leyang  and
+      Bi, Wei  and
+      Wang, Zhilin  and
+      Wang, Longyue  and
+      Yang, Linyi  and
+      Shi, Shuming  and
+      Zhang, Yue",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.3",
+    doi = "10.18653/v1/2024.acl-long.3",
+    pages = "36--53",
 }
 ```
 
