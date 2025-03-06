@@ -30,7 +30,6 @@ _<sup>†</sup> Zhejiang University,
 <sup>¶</sup> Tencent AI Lab_
 
 Presenting a comprehensive benchmark dataset designed to assess the proficiency of AI-generation detectors amidst real-world scenarios.
-Welcome to try detection via our **[online demo](https://detect.westlake.edu.cn)**!
 
 </div>
 
@@ -39,7 +38,7 @@ Welcome to try detection via our **[online demo](https://detect.westlake.edu.cn)
 - [Introduction](#-introduction)
 - [Activities](#-activities)
 - [Dataset](#-dataset)
-- [Try Detection](#computer--try-detection)
+- [Try Detection](#-try-detection)
 - [Data Samples](#-data-samples)
 - [Citation](#-citation)
 <!-- - [Contributing](#-contributing) -->
@@ -180,6 +179,8 @@ result = detect(text,tokenizer,model,device)
 | ----------------------------- | -------- | ---------- | ------ | ----- |
 | Unseen Domains & Unseen Model | 88.78%   | 84.12%     | 86.54% | 0.94  |
 | Paraphrase                    | 88.78%   | 37.05%     | 62.92% | 0.75  |
+
+We also deployed a detection server using this model, and welcome to try detection via our **[online demo](https://detect.westlake.edu.cn)**!
 
 ## 📄 Data Samples
 
