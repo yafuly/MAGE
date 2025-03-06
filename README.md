@@ -38,7 +38,7 @@ Presenting a comprehensive benchmark dataset designed to assess the proficiency 
 - [Introduction](#-introduction)
 - [Activities](#-activities)
 - [Dataset](#-dataset)
-- [Model](#-model)
+- [Model](#-:computer:-model)
 - [Data Samples](#-data-samples)
 - [Citation](#-citation)
 <!-- - [Contributing](#-contributing) -->
